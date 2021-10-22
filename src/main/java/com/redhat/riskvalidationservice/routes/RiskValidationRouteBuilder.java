@@ -1,9 +1,6 @@
 package com.redhat.riskvalidationservice.routes;
 
 import com.google.gson.Gson;
-import com.redhat.riskvalidationservice.beans.CollectEventsStrategy;
-import com.redhat.riskvalidationservice.beans.FilterStrategy;
-import com.redhat.riskvalidationservice.beans.RiskValidationBean;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.kafka.KafkaComponent;
