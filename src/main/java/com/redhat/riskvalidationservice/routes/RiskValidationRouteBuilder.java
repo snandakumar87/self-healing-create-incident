@@ -47,7 +47,7 @@ public class RiskValidationRouteBuilder extends RouteBuilder {
 		}
 	}
 
-	private final class AnotherEnricher implements Processor {
+	private final class AnotherEnricher implements org.apache.camel.Processor {
 
 		@Override
 		public void process(Exchange exchange) throws Exception {

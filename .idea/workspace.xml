@@ -8,8 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../ansible-status/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ansible-status/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../check-event-service/check-events-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../elastic-connector/account-validation-service.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../elastic-connector/rtp-creditor-receive-payment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../invoke-ansible/.idea/jarRepositories.xml" afterDir="false" />
@@ -19,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ansible-status/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ansible-status/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ansible-status/.idea/libraries/Maven__com_myspace_DMNListExample_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_myspace_DMNListExample_14_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ansible-status/.idea/libraries/Maven__com_myspace_RiskRatingDMN_1_0_0_SNAPSHOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ansible-status/.idea/libraries/Maven__com_myspace_customer_model_1_3_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ansible-status/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ansible-status/.idea/workspace.xml" afterDir="false" />
@@ -29,15 +26,6 @@
       <change beforePath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/beans/FilterStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/beans/FilterStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/beans/RuleSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/beans/RuleSessionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../check-event-service/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_myspace_DMNListExample_12_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_myspace_RiskRatingDMN_1_0_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_myspace_customer_model_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-validation-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/account-validation-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/redhat/riskvalidationservice/beans/RuleSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/redhat/riskvalidationservice/beans/RuleSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../elastic-connector/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../elastic-connector/src/main/java/com/redhat/riskvalidationservice/routes/RiskValidationRouteBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../invoke-ansible/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../invoke-ansible/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../invoke-ansible/.idea/libraries/Maven__com_myspace_DMNListExample_3_0_0.xml" beforeDir="false" />
@@ -92,7 +80,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
