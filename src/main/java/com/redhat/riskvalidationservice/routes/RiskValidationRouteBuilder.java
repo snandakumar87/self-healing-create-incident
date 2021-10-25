@@ -33,10 +33,7 @@ public class RiskValidationRouteBuilder extends RouteBuilder {
 			this.getContext().addComponent("kafka", kafka);
 
 
-			rest("/host")
-					.get("/info")
-					.route()
-					.bean(new Enricher(), "process");
+
 
 			from("kafka:" + "failed-decision" + "?brokers=" + kafkaBootstrap + "&maxPollRecords="
 					+ consumerMaxPollRecords + "&seekTo=" + "beginning"
