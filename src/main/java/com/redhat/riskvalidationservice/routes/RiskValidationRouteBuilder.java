@@ -32,6 +32,12 @@ public class RiskValidationRouteBuilder extends RouteBuilder {
 			kafka.setBrokers(kafkaBootstrap);
 			this.getContext().addComponent("kafka", kafka);
 
+
+			rest("/host")
+					.get("/info")
+					.route()
+					.bean(new Enricher(), "process");
+
 			from("kafka:" + "failed-decision" + "?brokers=" + kafkaBootstrap + "&maxPollRecords="
 					+ consumerMaxPollRecords + "&seekTo=" + "beginning"
 					+ "&groupId=" + "process")
@@ -43,6 +49,18 @@ public class RiskValidationRouteBuilder extends RouteBuilder {
 			e.printStackTrace();
 		}
 	}
+
+	private final class Enricher {
+
+
+		public void process(Exchange exchange) throws Exception {
+			com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
+
+			exchange.getIn().setBody(mapper.writeValueAsString(3));
+
+		}
+	}
+
 
 	private final class AnotherEnricher implements org.apache.camel.Processor {
 
